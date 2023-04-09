@@ -1,9 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/xss">XSS</router-link>
-    </div>
+    <router-link to="/">Innertext</router-link> |
+    <router-link to="/insecure">Insecure</router-link> |
+    <router-link to="/secure">Secure</router-link>
     <router-view />
   </div>
 </template>
@@ -15,6 +14,7 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  padding: 3rem;
 }
 
 #nav {
