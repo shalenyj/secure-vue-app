@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <router-link to="/">Innertext</router-link> |
-    <router-link to="/insecure">Insecure</router-link> |
+    <router-link to="/">Innertext</router-link> | <router-link to="/insecure">Insecure</router-link> |
     <router-link to="/secure">Secure</router-link>
     <router-view />
   </div>

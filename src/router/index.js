@@ -18,7 +18,7 @@ const routes = [
     path: '/secure',
     name: 'XSSSecure',
     component: () => import(/* webpackChunkName: "xss-secure" */ '@/components/xss/Secure.vue'),
-  }
+  },
 ];
 
 const router = new VueRouter({

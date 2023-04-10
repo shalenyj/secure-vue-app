@@ -3,8 +3,7 @@
     <label for="unsecure-field">Lets steal some data, you know how to do it....</label>
     <input id="unsecure-field" type="text" v-model="nMessage" />
     <button type="button" @click="send">Send</button>
-    <p v-for="message in messages" :key="message" v-html="message">
-    </p>
+    <p v-for="message in messages" :key="message" v-html="message"></p>
   </div>
 </template>
 
